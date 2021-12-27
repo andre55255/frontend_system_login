@@ -1,0 +1,39 @@
+.products {
+    width: 100%;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.group-btn {
+    width: 100%;
+    border-bottom: 1px #676FA3 solid;
+    padding-bottom: .7rem;
+    margin-top: .6rem;
+
+    display: flex;
+    justify-content: center;
+}
+
+.container-actions {
+    display: flex;
+}
+
+.ico {
+    cursor: pointer;
+    transition: all .3s;
+}
+
+#ico-edit {
+    margin-right: .5rem;
+}
+
+#ico-edit:hover {
+    background-color: #ffff6c;
+}
+
+#ico-delete:hover {
+    background-color: #ff6347;
+}

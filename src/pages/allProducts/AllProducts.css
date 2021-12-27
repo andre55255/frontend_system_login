@@ -1,0 +1,17 @@
+.all-products {
+    width: 100%;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ico-details {
+    cursor: pointer;
+    transition: all .3s;
+}
+
+#ico-details:hover {
+    background-color: #9dc8eb;
+}
